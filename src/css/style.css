@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+body {
+  height: 100%;
+  background-color: lightgray;
+}
+body .login-wrapper {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .login-wrapper .container {
+  width: 400px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgray;
+  box-shadow: 3px 3px 3px 3px rgb(170, 169, 169);
+  background-color: white;
+  border-radius: 5px;
+}
+body .login-wrapper .container header h1 {
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  margin-top: 2rem;
+  margin-bottom: 5.5rem;
+  font-weight: 400;
+}
+body .login-wrapper .container .loginForm {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 270px;
+  margin-bottom: 9rem;
+}
+body .login-wrapper .container .loginForm input {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  border: 1px solid lightgray;
+  padding-left: 1rem;
+  outline: none;
+}
+body .login-wrapper .container .loginForm button {
+  width: 100%;
+  height: 40px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+  font-size: 17px;
+  opacity: 1;
+  cursor: pointer;
+}
+body .login-wrapper .container .loginForm button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+body .login-wrapper .container .link {
+  margin-bottom: 10px;
+}
+body .login-wrapper .container .link a {
+  color: darkblue;
+  font-size: 13px;
+  cursor: pointer;
+  padding-bottom: 15px;
+}
+
+/* header */
+.wrapper {
+  width: 100%;
+}
+.wrapper .nav-container {
+  border-bottom: 1px solid lightgray;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+}
+.wrapper .nav-container .nav-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.wrapper .nav-container .nav-wrapper .nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .nav-container .nav-wrapper .nav-left #instagram {
+  position: relative;
+  font-size: 30px;
+  margin-right: 40px;
+}
+.wrapper .nav-container .nav-wrapper .nav-left:after {
+  content: "";
+  width: 2px;
+  height: 30px;
+  background-color: #000;
+  position: absolute;
+  margin-left: 45px;
+}
+.wrapper .nav-container .nav-wrapper .nav-left p {
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+}
+.wrapper .nav-container .nav-wrapper .nav-center input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  background-color: rgb(245, 241, 241);
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  padding-left: 45%;
+}
+.wrapper .nav-container .nav-wrapper .nav-right {
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+}
+.wrapper .nav-container .nav-wrapper .nav-right i {
+  font-size: 25px;
+}
+
+/* main */
+main {
+  width: 100%;
+  height: 80%;
+  padding: 40px;
+  background-color: lightgray;
+}
+main .main-feed {
+  width: 470px;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
+main .main-feed .main-feed-header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: #fff;
+  height: 50px;
+}
+main .main-feed .main-feed-header img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 7px;
+  margin-right: 6px;
+}
+main .main-feed .main-feed-header svg {
+  position: absolute;
+  right: 10px;
+}
+main .main-feed .main-picture {
+  width: 100%;
+  height: 500px;
+}
+main .main-feed .main-picture img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .main-feed .main-icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+  background-color: #fff;
+}
+main .main-feed .main-icon .icon-wrapper1 svg {
+  padding-right: 4px;
+}
+main .main-feed .main-icon .icon-wrapper1 .fa-heart {
+  color: red;
+}
+main .main-feed .main-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  background-color: #fff;
+}
+main .main-feed .main-wrapper .main-counter {
+  display: flex;
+  margin-bottom: 7px;
+  font-size: 15px;
+  padding-left: 7px;
+}
+main .main-feed .main-wrapper .main-counter img {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+main .main-feed .main-wrapper .main-title {
+  border-bottom: 1px solid lightgray;
+  padding-left: 7px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+}
+main .main-feed .main-wrapper .main-title .main-title-top {
+  display: flex;
+}
+main .main-feed .main-wrapper .main-title .main-title-top p {
+  margin-left: 5px;
+}
+main .main-feed .main-wrapper .main-title .title-id {
+  display: flex;
+}
+main .main-feed .main-wrapper .main-title .title-id p {
+  padding-right: 3px;
+}
+main .main-feed .main-wrapper .main-title .comment-id {
+  display: flex;
+  justify-content: space-between;
+}
+main .main-feed .main-wrapper .main-title .comment-id div {
+  display: flex;
+}
+main .main-feed .main-wrapper .main-title .comment-id .fa-heart {
+  padding-right: 10px;
+}
+main .main-feed .main-wrapper .main-title .time {
+  color: gray;
+}
+main .main-feed .main-wrapper .add-comment {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  height: 40px;
+  align-items: center;
+  font-size: 13px;
+  padding-right: 7px;
+}
+main .main-feed .main-wrapper .add-comment input {
+  height: 100%;
+  width: 90%;
+  outline: none;
+  border: none;
+  padding: 7px;
+}
+main .main-feed .main-wrapper .add-comment button {
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+  color: lightblue;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .heartIcon {
+  padding-right: 10px;
+}

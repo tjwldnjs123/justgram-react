@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+/* header */
+.wrapper {
+  width: 100%;
+
+  .nav-container {
+    border-bottom: 1px solid lightgray;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+
+    .nav-wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+
+      .nav-left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        #instagram {
+          position: relative;
+          font-size: 30px;
+          margin-right: 40px;
+        }
+        &:after {
+          content: "";
+          width: 2px;
+          height: 30px;
+          background-color: #000;
+          position: absolute;
+          margin-left: 45px;
+        }
+        p {
+          font-size: 30px;
+          font-family: "Lobster", cursive;
+        }
+      }
+      .nav-center {
+        input {
+          width: 200px;
+          height: 30px;
+          border: none;
+          background-color: rgb(245, 241, 241);
+          border-radius: 3px;
+          border: 1px solid lightgray;
+          padding-left: 45%;
+        }
+      }
+      .nav-right {
+        display: flex;
+        width: 150px;
+        justify-content: space-around;
+
+        i {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+/* main */
+main {
+  width: 100%;
+  height: 80%;
+  padding: 40px;
+  background-color: lightgray;
+  .main-feed {
+    width: 470px;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid gray;
+
+    .main-feed-header {
+      display: flex;
+      position: relative;
+      align-items: center;
+      background-color: #fff;
+      height: 50px;
+
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-left: 7px;
+        margin-right: 6px;
+      }
+      svg {
+        position: absolute;
+        right: 10px;
+      }
+    }
+    .main-picture {
+      width: 100%;
+      height: 500px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .main-icon {
+      display: flex;
+      justify-content: space-between;
+      padding: 7px;
+      background-color: #fff;
+
+      .icon-wrapper1 {
+        svg {
+          padding-right: 4px;
+        }
+        .fa-heart {
+          color: red;
+        }
+      }
+    }
+    .main-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      font-size: 15px;
+      background-color: #fff;
+
+      .main-counter {
+        display: flex;
+        margin-bottom: 7px;
+        font-size: 15px;
+        padding-left: 7px;
+
+        img {
+          width: 17px;
+          height: 17px;
+          border-radius: 50%;
+          margin-right: 5px;
+        }
+      }
+      .main-title {
+        border-bottom: 1px solid lightgray;
+        padding-left: 7px;
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        .main-title-top {
+          display: flex;
+          p {
+            margin-left: 5px;
+          }
+        }
+        .title-id {
+          display: flex;
+
+          p {
+            padding-right: 3px;
+          }
+        }
+        .comment-id {
+          display: flex;
+          justify-content: space-between;
+          div {
+            display: flex;
+          }
+          .fa-heart {
+            padding-right: 10px;
+          }
+        }
+        .time {
+          color: gray;
+        }
+      }
+      .add-comment {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: gray;
+        height: 40px;
+        align-items: center;
+        font-size: 13px;
+        padding-right: 7px;
+
+        input {
+          height: 100%;
+          width: 90%;
+          outline: none;
+          border: none;
+          padding: 7px;
+        }
+        button {
+          border: 0;
+          outline: 0;
+          background-color: #fff;
+          color: lightblue;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+// /* 자바스크립트 클래스생성 */
+// .comment-box {
+//   display: flex;
+//   flex-direction: column;
+// }
+// .wrapperComments {
+//   display: flex;
+//   justify-content: space-between;
+// }
+// .wrapperComments span {
+//   margin-right: 5px;
+// }
+// .comments-list {
+//   display: flex;
+// }
+// .heart {
+//   border: none;
+
+//   background-color: white;
+// }
+// .heart i {
+//   margin-right: 10px;
+//   color: red;
+// }

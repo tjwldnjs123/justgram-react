@@ -1,0 +1,22 @@
+{
+  "feeds": [
+    {
+      "id": 1,
+      "userName": "zioni11_",
+      "imageUrl": "/assets/zioni.jpeg",
+      "title": "게시글111"
+    },
+    {
+      "id": 2,
+      "userName": "zioni22_",
+      "imageUrl": "/assets/뭉치.jpeg",
+      "title": "게시글222"
+    },
+    {
+      "id": 3,
+      "userName": "zioni33_",
+      "imageUrl": "/assets/zioni2.jpeg",
+      "title": "게시글333"
+    }
+  ]
+}
